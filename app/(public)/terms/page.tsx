@@ -5,7 +5,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Terms and Conditions",
   description:
-    "Terms and conditions governing the use of A Cube Tech Solutions career support services.",
+    "Terms and conditions governing the use of Acubix Technologies career support services.",
   robots: { index: false, follow: false },
 };
 
@@ -17,7 +17,7 @@ const SECTIONS = [
       <>
         <p>
           These Terms and Conditions (&quot;Terms&quot;) govern your use of the services provided by
-          A Cube Tech Solutions (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;). By purchasing a plan or engaging
+          Acubix Technologies (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;). By purchasing a plan or engaging
           our services, you (&quot;client&quot;, &quot;you&quot;) agree to be bound by these Terms.
         </p>
         <p className="mt-3">
@@ -33,7 +33,7 @@ const SECTIONS = [
     content: (
       <>
         <p>
-          A Cube Tech Solutions provides career consulting services for international students and
+          Acubix Technologies provides career consulting services for international students and
           graduates, which may include:
         </p>
         <ul className="mt-3 space-y-2 list-none">

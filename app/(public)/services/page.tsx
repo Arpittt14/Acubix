@@ -5,7 +5,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Our Services",
   description:
-    "Detailed breakdown of every career service offered by A Cube Tech Solutions — resume optimisation, LinkedIn, job applications, interview prep, and more.",
+    "Detailed breakdown of every career service offered by Acubix Technologies — resume optimisation, LinkedIn, job applications, interview prep, and more.",
 };
 
 const SERVICES = [

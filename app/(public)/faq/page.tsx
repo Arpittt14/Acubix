@@ -5,9 +5,9 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
-    "Answers to common questions about A Cube Tech Solutions — our services, how we support international graduates, pricing, and the application process.",
+    "Answers to common questions about Acubix Technologies — our services, how we support international graduates, pricing, and the application process.",
   openGraph: {
-    title: "FAQ | A Cube Tech Solutions",
+    title: "FAQ | Acubix Technologies",
     description:
       "Find answers to common questions about our career support services for international graduates.",
     url: "/faq",
@@ -21,89 +21,89 @@ const categories: {
   title: string;
   items: { q: string; a: string }[];
 }[] = [
-  {
-    id: "about",
-    title: "About Our Service",
-    items: [
-      {
-        q: "What does A Cube Tech Solutions do?",
-        a: "A Cube Tech Solutions provides practical career support services to international graduates who are looking to enter or advance in the job market. Our services include resume optimisation, LinkedIn profile improvement, job application assistance, and interview preparation — all tailored to the specific expectations of employers in your target country.",
-      },
-      {
-        q: "Who is this service for?",
-        a: "Our services are designed primarily for international students and graduates who are navigating the job market in Australia, Canada, the United Kingdom, the United States, or New Zealand. If you graduated within the last three years, or are finishing your studies soon, we can help you put your best foot forward.",
-      },
-      {
-        q: "Do you guarantee I will get a job?",
-        a: "No — and we will never make that promise. We provide professional support to improve your application materials and interview skills, but job outcomes depend on many factors outside our control, including market conditions, your field, and employer decisions. Our goal is to give you the strongest possible foundation.",
-      },
-      {
-        q: "Are your advisors qualified?",
-        a: "Our team has direct experience supporting international graduates through job searches and understands the nuances of different hiring markets. We focus on practical, actionable guidance rather than generic advice.",
-      },
-      {
-        q: "Can you help me with visa or immigration questions?",
-        a: "No. We are a career support service and are not registered migration agents or solicitors. We cannot provide legal or immigration advice. For visa-related questions, please consult a registered migration agent (in Australia, look for MARA-registered agents) or a qualified immigration solicitor.",
-      },
-      {
-        q: "What countries do you support?",
-        a: "We currently focus on job markets in Australia, Canada, the United Kingdom, the United States, and New Zealand. If your target country is not listed, contact us and we will let you know whether we can still assist.",
-      },
-    ],
-  },
-  {
-    id: "applications",
-    title: "Applications & Authorisation",
-    items: [
-      {
-        q: "How does the consultation process work?",
-        a: "Start by submitting a consultation request form on our website. We review your details and get in touch within 2 business days to confirm availability and arrange a time to speak. Your consultation is only confirmed once you receive a written confirmation email from us.",
-      },
-      {
-        q: "What happens after I submit the consultation form?",
-        a: "We will review your request and contact you via your preferred method (email, phone, or video call) within 2 business days. We may ask a few clarifying questions before confirming your session. Please note that submitting the form does not automatically book a consultation.",
-      },
-      {
-        q: "What information should I prepare before a consultation?",
-        a: "It helps to have your current resume or CV ready, a list of roles or industries you are targeting, and any specific concerns or challenges you would like to discuss. The more context you share, the more useful the session will be.",
-      },
-      {
-        q: "Can I request revisions to my resume after the initial draft?",
-        a: "Yes. Each service plan includes a defined number of revision rounds. If you need additional revisions beyond what is included in your plan, these can be arranged at an additional cost. We will always be transparent about any extra charges before proceeding.",
-      },
-      {
-        q: "How long does it take to receive a revised resume or LinkedIn profile?",
-        a: "Turnaround times depend on your plan and current workload. We aim to provide initial drafts within 3–5 business days of receiving all required information from you. Timelines will be confirmed in writing before work begins.",
-      },
-    ],
-  },
-  {
-    id: "pricing",
-    title: "Pricing & Plans",
-    items: [
-      {
-        q: "What plans do you offer?",
-        a: "We offer several tiers of support — from a focused resume review to a comprehensive package covering resume, LinkedIn, application assistance, and interview preparation. You can see a full breakdown of our plans on the Plans page.",
-      },
-      {
-        q: "Are there any hidden fees?",
-        a: "No. All pricing is shown upfront. If any additional work is requested beyond your plan, we will provide a clear quote before starting. You are never charged for anything without prior written agreement.",
-      },
-      {
-        q: "Do you offer refunds?",
-        a: "Because our work involves significant time and expertise, we do not offer refunds once work has commenced. We strongly recommend reviewing your plan carefully and asking any questions before purchase. If you have concerns before work starts, please contact us.",
-      },
-      {
-        q: "Can I upgrade my plan after I have already purchased?",
-        a: "Yes, in most cases you can upgrade to a higher plan and pay only the difference. Contact us and we will work out the best option for your situation.",
-      },
-      {
-        q: "Do you offer any discounts or concessions?",
-        a: "We occasionally offer promotional pricing for early access, referrals, or specific cohorts. Sign up to our mailing list or follow us on social media for updates. We do not currently offer means-tested concessions, but we aim to keep our pricing accessible.",
-      },
-    ],
-  },
-];
+    {
+      id: "about",
+      title: "About Our Service",
+      items: [
+        {
+          q: "What does Acubix Technologies do?",
+          a: "Acubix Technologies provides practical career support services to international graduates who are looking to enter or advance in the job market. Our services include resume optimisation, LinkedIn profile improvement, job application assistance, and interview preparation — all tailored to the specific expectations of employers in your target country.",
+        },
+        {
+          q: "Who is this service for?",
+          a: "Our services are designed primarily for international students and graduates who are navigating the job market in Australia, Canada, the United Kingdom, the United States, or New Zealand. If you graduated within the last three years, or are finishing your studies soon, we can help you put your best foot forward.",
+        },
+        {
+          q: "Do you guarantee I will get a job?",
+          a: "No — and we will never make that promise. We provide professional support to improve your application materials and interview skills, but job outcomes depend on many factors outside our control, including market conditions, your field, and employer decisions. Our goal is to give you the strongest possible foundation.",
+        },
+        {
+          q: "Are your advisors qualified?",
+          a: "Our team has direct experience supporting international graduates through job searches and understands the nuances of different hiring markets. We focus on practical, actionable guidance rather than generic advice.",
+        },
+        {
+          q: "Can you help me with visa or immigration questions?",
+          a: "No. We are a career support service and are not registered migration agents or solicitors. We cannot provide legal or immigration advice. For visa-related questions, please consult a registered migration agent (in Australia, look for MARA-registered agents) or a qualified immigration solicitor.",
+        },
+        {
+          q: "What countries do you support?",
+          a: "We currently focus on job markets in Australia, Canada, the United Kingdom, the United States, and New Zealand. If your target country is not listed, contact us and we will let you know whether we can still assist.",
+        },
+      ],
+    },
+    {
+      id: "applications",
+      title: "Applications & Authorisation",
+      items: [
+        {
+          q: "How does the consultation process work?",
+          a: "Start by submitting a consultation request form on our website. We review your details and get in touch within 2 business days to confirm availability and arrange a time to speak. Your consultation is only confirmed once you receive a written confirmation email from us.",
+        },
+        {
+          q: "What happens after I submit the consultation form?",
+          a: "We will review your request and contact you via your preferred method (email, phone, or video call) within 2 business days. We may ask a few clarifying questions before confirming your session. Please note that submitting the form does not automatically book a consultation.",
+        },
+        {
+          q: "What information should I prepare before a consultation?",
+          a: "It helps to have your current resume or CV ready, a list of roles or industries you are targeting, and any specific concerns or challenges you would like to discuss. The more context you share, the more useful the session will be.",
+        },
+        {
+          q: "Can I request revisions to my resume after the initial draft?",
+          a: "Yes. Each service plan includes a defined number of revision rounds. If you need additional revisions beyond what is included in your plan, these can be arranged at an additional cost. We will always be transparent about any extra charges before proceeding.",
+        },
+        {
+          q: "How long does it take to receive a revised resume or LinkedIn profile?",
+          a: "Turnaround times depend on your plan and current workload. We aim to provide initial drafts within 3–5 business days of receiving all required information from you. Timelines will be confirmed in writing before work begins.",
+        },
+      ],
+    },
+    {
+      id: "pricing",
+      title: "Pricing & Plans",
+      items: [
+        {
+          q: "What plans do you offer?",
+          a: "We offer several tiers of support — from a focused resume review to a comprehensive package covering resume, LinkedIn, application assistance, and interview preparation. You can see a full breakdown of our plans on the Plans page.",
+        },
+        {
+          q: "Are there any hidden fees?",
+          a: "No. All pricing is shown upfront. If any additional work is requested beyond your plan, we will provide a clear quote before starting. You are never charged for anything without prior written agreement.",
+        },
+        {
+          q: "Do you offer refunds?",
+          a: "Because our work involves significant time and expertise, we do not offer refunds once work has commenced. We strongly recommend reviewing your plan carefully and asking any questions before purchase. If you have concerns before work starts, please contact us.",
+        },
+        {
+          q: "Can I upgrade my plan after I have already purchased?",
+          a: "Yes, in most cases you can upgrade to a higher plan and pay only the difference. Contact us and we will work out the best option for your situation.",
+        },
+        {
+          q: "Do you offer any discounts or concessions?",
+          a: "We occasionally offer promotional pricing for early access, referrals, or specific cohorts. Sign up to our mailing list or follow us on social media for updates. We do not currently offer means-tested concessions, but we aim to keep our pricing accessible.",
+        },
+      ],
+    },
+  ];
 
 // ── Component ────────────────────────────────────────────────────────────────
 
@@ -149,9 +149,8 @@ export default function FaqPage() {
         <section
           key={cat.id}
           id={cat.id}
-          className={`section-padding border-b-2 border-[#0a0a0a] ${
-            catIdx % 2 === 0 ? "bg-[#f4f3ef]" : "bg-white"
-          }`}
+          className={`section-padding border-b-2 border-[#0a0a0a] ${catIdx % 2 === 0 ? "bg-[#f4f3ef]" : "bg-white"
+            }`}
         >
           <div className="container-site">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#0066ff] mb-3">

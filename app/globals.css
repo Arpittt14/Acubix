@@ -1,60 +1,69 @@
+
 @import "tailwindcss";
 
-/* ─── Design Tokens ─────────────────────────────────────────── */
+/* ─── ACUBIX TECHNOLOGIES — BRAND DESIGN TOKENS ─────────────── */
 @theme inline {
-  /* Brand colours */
-  --color-brand-black:    #0a0a0a;
-  --color-brand-near-black: #111111;
-  --color-brand-white:    #fafaf8;
-  --color-brand-offwhite: #f4f3ef;
-  --color-brand-blue:     #0066ff;
-  --color-brand-blue-dark:#0047cc;
-  --color-brand-blue-light:#e6f0ff;
-  --color-brand-cyan:     #00d4ff;
-  --color-brand-charcoal: #2a2a2a;
-  --color-brand-gray:     #6b6b6b;
-  --color-brand-gray-light: #e8e7e3;
-  --color-brand-gray-mid: #d1d0cb;
+  /* Brand Colours */
+  --color-brand-black: #171717;
+  --color-brand-near-black: #171717;
+  --color-brand-white: #F5F0E8;
+  --color-brand-offwhite: #F5F0E8;
+
+  --color-brand-blue: #D71920;
+  --color-brand-blue-dark: #A81218;
+  --color-brand-blue-light: #FBE5E3;
+  --color-brand-cyan: #D71920;
+
+  --color-brand-charcoal: #171717;
+  --color-brand-gray: #C7C2B8;
+  --color-brand-gray-light: #F5F0E8;
+  --color-brand-gray-mid: #C7C2B8;
+
+  /* New Acubix Brand Colours */
+  --color-brand-ivory: #F5F0E8;
+  --color-brand-red: #D71920;
+  --color-brand-stone: #C7C2B8;
 
   /* Surfaces */
-  --color-surface-base:   #f4f3ef;
-  --color-surface-card:   #ffffff;
-  --color-surface-dark:   #0a0a0a;
-  --color-surface-panel:  #1a1a1a;
+  --color-surface-base: #F5F0E8;
+  --color-surface-card: #F5F0E8;
+  --color-surface-dark: #171717;
+  --color-surface-panel: #171717;
 
   /* Typography */
-  --font-sans:   var(--font-space-grotesk);
-  --font-mono:   var(--font-geist-mono);
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-geist-mono);
   --font-display: var(--font-space-grotesk);
 
-  /* Font sizes — brutalist scale */
+  /* Font sizes */
   --text-display: 5rem;
-  --text-hero:    3.5rem;
-  --text-h1:      2.75rem;
-  --text-h2:      2rem;
-  --text-h3:      1.5rem;
-  --text-h4:      1.25rem;
-  --text-body:    1rem;
-  --text-sm:      0.875rem;
-  --text-xs:      0.75rem;
+  --text-hero: 3.5rem;
+  --text-h1: 2.75rem;
+  --text-h2: 2rem;
+  --text-h3: 1.5rem;
+  --text-h4: 1.25rem;
+  --text-body: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
 
   /* Borders */
   --border-heavy: 3px;
   --border-medium: 2px;
-  --border-thin:  1px;
+  --border-thin: 1px;
 
   /* Radii */
-  --radius-sm:   2px;
-  --radius-md:   4px;
-  --radius-lg:   6px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
 
   /* Shadows */
-  --shadow-brutal:     4px 4px 0px #0a0a0a;
-  --shadow-brutal-lg:  6px 6px 0px #0a0a0a;
-  --shadow-brutal-blue: 4px 4px 0px #0066ff;
+  --shadow-brutal: 4px 4px 0px #171717;
+  --shadow-brutal-lg: 6px 6px 0px #171717;
+  --shadow-brutal-blue: 4px 4px 0px #D71920;
 }
 
-/* ─── Base Styles ───────────────────────────────────────────── */
+/* ─── BASE STYLES ───────────────────────────────────────────── */
+
 *,
 *::before,
 *::after {
@@ -69,6 +78,7 @@ html {
   html {
     scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
@@ -79,8 +89,8 @@ html {
 }
 
 body {
-  background-color: #f4f3ef;
-  color: #0a0a0a;
+  background-color: #F5F0E8;
+  color: #171717;
   font-family: var(--font-space-grotesk), system-ui, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
@@ -88,7 +98,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ─── Typography ────────────────────────────────────────────── */
+/* ─── TYPOGRAPHY ────────────────────────────────────────────── */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-space-grotesk), system-ui, sans-serif;
   font-weight: 700;
@@ -96,35 +107,42 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-/* ─── Focus Styles (accessible) ─────────────────────────────── */
+/* ─── FOCUS STYLES ──────────────────────────────────────────── */
+
 :focus-visible {
-  outline: 3px solid #0066ff;
+  outline: 3px solid #D71920;
   outline-offset: 2px;
   border-radius: 2px;
 }
 
-/* ─── Selection ─────────────────────────────────────────────── */
+/* ─── TEXT SELECTION ────────────────────────────────────────── */
+
 ::selection {
-  background-color: #0066ff;
-  color: #ffffff;
+  background-color: #D71920;
+  color: #F5F0E8;
 }
 
-/* ─── Scrollbar ─────────────────────────────────────────────── */
+/* ─── SCROLLBAR ──────────────────────────────────────────────── */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #f4f3ef;
-}
-::-webkit-scrollbar-thumb {
-  background: #2a2a2a;
-  border-radius: 0;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #0066ff;
+  background: #F5F0E8;
 }
 
-/* ─── Utility classes ────────────────────────────────────────── */
+::-webkit-scrollbar-thumb {
+  background: #C7C2B8;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D71920;
+}
+
+/* ─── UTILITY CLASSES ────────────────────────────────────────── */
+
 .container-site {
   width: 100%;
   max-width: 1280px;
@@ -144,20 +162,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Brutal card border utility */
+/* ─── BRUTALIST CARD UTILITIES ───────────────────────────────── */
+
 .brutal-border {
-  border: 3px solid #0a0a0a;
+  border: 3px solid #171717;
 }
 
 .brutal-shadow {
-  box-shadow: 4px 4px 0px #0a0a0a;
+  box-shadow: 4px 4px 0px #171717;
 }
 
 .brutal-shadow-blue {
-  box-shadow: 4px 4px 0px #0066ff;
+  box-shadow: 4px 4px 0px #D71920;
 }
 
-/* Section spacing */
+/* ─── SECTION SPACING ───────────────────────────────────────── */
+
 .section-padding {
   padding-block: 5rem;
 }
@@ -168,7 +188,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Animated underline for links */
+/* ─── ANIMATED LINK UNDERLINE ────────────────────────────────── */
+
 .link-underline {
   position: relative;
   text-decoration: none;
@@ -181,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #0066ff;
+  background-color: #D71920;
   transition: width 0.25s ease;
 }
 

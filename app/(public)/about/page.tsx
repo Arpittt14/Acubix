@@ -5,7 +5,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about A Cube Tech Solutions — our mission, service philosophy, and transparent approach to graduate career support.",
+    "Learn about Acubix Technologies — our mission, service philosophy, and transparent approach to graduate career support.",
 };
 
 const PRINCIPLES = [
@@ -68,7 +68,7 @@ export default function AboutPage() {
               <span className="text-[#0066ff]">Honesty and Effort.</span>
             </h1>
             <p className="text-[#a0a09a] text-lg leading-relaxed max-w-2xl">
-              A Cube Tech Solutions is a career consulting service for international students and
+              Acubix Technologies is a career consulting service for international students and
               graduates. We help clients improve their professional profiles, identify relevant
               opportunities, and manage their job search with structure and transparency.
             </p>

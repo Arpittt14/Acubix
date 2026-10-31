@@ -5,7 +5,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How A Cube Tech Solutions collects, stores, and uses your personal information.",
+    "How Acubix Technologies collects, stores, and uses your personal information.",
   robots: { index: false, follow: false },
 };
 
@@ -16,7 +16,7 @@ const SECTIONS = [
     content: (
       <>
         <p>
-          A Cube Tech Solutions (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is a career consulting service
+          Acubix Technologies (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is a career consulting service
           operating primarily for clients in Australia, Canada, the United Kingdom, the United
           States, and New Zealand. This Privacy Policy explains how we collect, use, store, and
           protect your personal information when you use our services or interact with our website.

@@ -9,7 +9,7 @@ interface LogoProps {
 }
 
 /**
- * Geometric cube mark + "A CUBE TECH SOLUTIONS" wordmark.
+ * Geometric cube mark + "Acubix Technologies" wordmark.
  * The cube is drawn purely in SVG — no external images required.
  */
 export default function Logo({
@@ -21,7 +21,7 @@ export default function Logo({
     <Link
       href={href}
       className={`inline-flex items-center gap-3 no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0066ff] rounded-sm ${className}`}
-      aria-label="A Cube Tech Solutions — home"
+      aria-label="Acubix Technologies — home"
     >
       {/* ── Cube mark ── */}
       <CubeMark />
@@ -33,10 +33,10 @@ export default function Logo({
           aria-hidden="true"
         >
           <span className="block text-[11px] tracking-[0.2em] uppercase text-[#0066ff] font-semibold">
-            A CUBE
+            Acubix
           </span>
           <span className="block text-[15px] tracking-[0.08em] uppercase">
-            TECH SOLUTIONS
+            TECHNOLOGIES
           </span>
         </span>
       )}

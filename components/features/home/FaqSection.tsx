@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -40,7 +41,7 @@ export default function FaqSection() {
   return (
     <section
       id="faq"
-      className="section-padding bg-white border-b-2 border-[#0a0a0a]"
+      className="section-padding bg-[#F5F0E8] border-b-2 border-[#171717]"
       aria-labelledby="faq-heading"
     >
       <div className="container-site">
@@ -48,32 +49,37 @@ export default function FaqSection() {
           {/* Left */}
           <div className="lg:col-span-4">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-0.5 bg-[#0066ff]" aria-hidden="true" />
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#0066ff]">
+              <div
+                className="w-8 h-0.5 bg-[#D71920]"
+                aria-hidden="true"
+              />
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#D71920]">
                 FAQ
               </span>
             </div>
+
             <h2
               id="faq-heading"
-              className="text-[clamp(2rem,4vw,2.75rem)] font-black leading-[1.1] tracking-tight text-[#0a0a0a] mb-6"
+              className="text-[clamp(2rem,4vw,2.75rem)] font-black leading-[1.1] tracking-tight text-[#171717] mb-6"
             >
               Common
               <br />
               Questions.
             </h2>
-            <p className="text-[#2a2a2a] text-sm leading-relaxed">
+
+            <p className="text-[#55514B] text-sm leading-relaxed">
               Honest answers to the questions we hear most. If yours isn&apos;t
               here,{" "}
               <a
                 href="/faq"
-                className="text-[#0066ff] underline hover:no-underline"
+                className="text-[#D71920] underline hover:no-underline"
               >
                 visit our full FAQ
               </a>{" "}
               or{" "}
               <a
                 href="/contact"
-                className="text-[#0066ff] underline hover:no-underline"
+                className="text-[#D71920] underline hover:no-underline"
               >
                 get in touch
               </a>
@@ -83,9 +89,10 @@ export default function FaqSection() {
 
           {/* Right: accordion */}
           <div className="lg:col-span-8">
-            <dl className="divide-y-2 divide-[#e8e7e3] border-y-2 border-[#0a0a0a]">
+            <dl className="divide-y-2 divide-[#C7C2B8] border-y-2 border-[#171717]">
               {FAQS.map(({ q, a }, idx) => {
                 const isOpen = openIdx === idx;
+
                 return (
                   <div key={idx}>
                     <dt>
@@ -96,18 +103,22 @@ export default function FaqSection() {
                         onClick={() =>
                           setOpenIdx(isOpen ? null : idx)
                         }
-                        className="w-full flex items-start justify-between gap-4 py-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0066ff] group"
+                        className="w-full flex items-start justify-between gap-4 py-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D71920] group"
                       >
-                        <span className="text-sm font-bold text-[#0a0a0a] group-hover:text-[#0066ff] transition-colors duration-150">
+                        <span className="text-sm font-bold text-[#171717] group-hover:text-[#D71920] transition-colors duration-150">
                           {q}
                         </span>
+
                         <ChevronDown
                           size={18}
-                          className={`shrink-0 text-[#6b6b6b] group-hover:text-[#0066ff] transition-transform duration-200 mt-0.5 ${isOpen ? "rotate-180" : ""}`}
+                          className={`shrink-0 text-[#77716A] group-hover:text-[#D71920] transition-transform duration-200 mt-0.5 ${
+                            isOpen ? "rotate-180" : ""
+                          }`}
                           aria-hidden="true"
                         />
                       </button>
                     </dt>
+
                     <dd
                       id={`faq-a-${idx}`}
                       role="region"
@@ -115,7 +126,7 @@ export default function FaqSection() {
                       hidden={!isOpen}
                       className="pb-5"
                     >
-                      <p className="text-sm text-[#2a2a2a] leading-relaxed max-w-2xl">
+                      <p className="text-sm text-[#55514B] leading-relaxed max-w-2xl">
                         {a}
                       </p>
                     </dd>

@@ -1,4 +1,4 @@
-# A Cube Tech Solutions — Task Checklist
+# Acubix Technologies — Task Checklist
 
 > Maintained incrementally after every phase.
 > **Current phase:** Phase 2 — IN PROGRESS

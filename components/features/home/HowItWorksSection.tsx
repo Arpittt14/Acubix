@@ -1,3 +1,4 @@
+
 const STEPS = [
   {
     number: "01",
@@ -47,27 +48,27 @@ export default function HowItWorksSection() {
   return (
     <section
       id="how-it-works"
-      className="section-padding bg-[#0a0a0a] text-white border-b-2 border-[#0a0a0a]"
+      className="section-padding bg-[#171717] text-[#F5F0E8] border-b-2 border-[#171717]"
       aria-labelledby="process-heading"
     >
       <div className="container-site">
         {/* Header */}
         <div className="mb-16 max-w-xl">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-8 h-0.5 bg-[#0066ff]" aria-hidden="true" />
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#0066ff]">
+            <div className="w-8 h-0.5 bg-[#D71920]" aria-hidden="true" />
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#D71920]">
               The Process
             </span>
           </div>
           <h2
             id="process-heading"
-            className="text-[clamp(2rem,5vw,3rem)] font-black leading-[1.1] tracking-tight"
+            className="text-[clamp(2rem,5vw,3rem)] font-black leading-[1.1]"
           >
             How We Work
             <br />
             Together.
           </h2>
-          <p className="mt-4 text-[#a0a09a] text-base leading-relaxed">
+          <p className="mt-4 text-[#C7C2B8] text-base leading-relaxed">
             A transparent, step-by-step process with your approval required at
             every significant stage. No surprises, no hidden steps.
           </p>
@@ -77,7 +78,7 @@ export default function HowItWorksSection() {
         <ol className="relative">
           {/* Connecting line */}
           <div
-            className="absolute left-6 top-3 bottom-3 w-px bg-[#2a2a2a] hidden md:block"
+            className="absolute left-6 top-3 bottom-3 w-px bg-[#3A3A3A] hidden md:block"
             aria-hidden="true"
           />
 
@@ -89,8 +90,8 @@ export default function HowItWorksSection() {
               >
                 {/* Step number */}
                 <div className="flex items-start gap-4 md:block md:w-12 mb-4 md:mb-0">
-                  <div className="relative z-10 w-12 h-12 border-2 border-[#2a2a2a] bg-[#0a0a0a] flex items-center justify-center group-hover:border-[#0066ff] group-hover:bg-[#0066ff] transition-colors duration-200 shrink-0">
-                    <span className="text-xs font-black text-[#a0a09a] group-hover:text-white transition-colors duration-200 font-mono">
+                  <div className="relative z-10 w-12 h-12 border-2 border-[#3A3A3A] bg-[#171717] flex items-center justify-center group-hover:border-[#D71920] group-hover:bg-[#D71920] transition-colors duration-200 shrink-0">
+                    <span className="text-xs font-black text-[#C7C2B8] group-hover:text-[#F5F0E8] transition-colors duration-200 font-mono">
                       {number}
                     </span>
                   </div>
@@ -98,12 +99,12 @@ export default function HowItWorksSection() {
 
                 {/* Content */}
                 <div
-                  className={`pb-10 md:pb-12 ${idx === STEPS.length - 1 ? "pb-0 md:pb-0" : "border-b border-[#1a1a1a]"} md:border-0`}
+                  className={`pb-10 md:pb-12 ${idx === STEPS.length - 1 ? "pb-0 md:pb-0" : "border-b border-[#303030]"} md:border-0`}
                 >
-                  <h3 className="text-base font-bold text-white mb-2 group-hover:text-[#0066ff] transition-colors duration-200">
+                  <h3 className="text-base font-bold text-[#F5F0E8] mb-2 group-hover:text-[#D71920] transition-colors duration-200">
                     {title}
                   </h3>
-                  <p className="text-sm text-[#a0a09a] leading-relaxed max-w-xl">
+                  <p className="text-sm text-[#C7C2B8] leading-relaxed max-w-xl">
                     {description}
                   </p>
                 </div>

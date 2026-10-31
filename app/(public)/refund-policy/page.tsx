@@ -5,7 +5,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Refund Policy",
   description:
-    "A Cube Tech Solutions refund policy — how to request a refund and when refunds apply.",
+    "Acubix Technologies refund policy — how to request a refund and when refunds apply.",
   robots: { index: false, follow: false },
 };
 
@@ -15,7 +15,7 @@ const SECTIONS = [
     heading: "1. Overview",
     content: (
       <p>
-        A Cube Tech Solutions is committed to delivering the services described in your chosen plan
+        Acubix Technologies is committed to delivering the services described in your chosen plan
         in full and with professional diligence. We do not offer refunds as a routine matter —
         payment reflects a commitment to a fixed scope of service. However, we recognise that
         circumstances can change, and this policy sets out the conditions under which a refund may

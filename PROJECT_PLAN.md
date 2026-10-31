@@ -1,4 +1,4 @@
-# A Cube Tech Solutions — Project Plan
+# Acubix Technologies — Project Plan
 
 > **Status:** Phase 2 in progress.
 > **Last updated:** 2026-10-29
@@ -7,7 +7,7 @@
 
 ## Business Overview
 
-**A Cube Tech Solutions** is an international graduate job-search consulting business.
+**Acubix Technologies** is an international graduate job-search consulting business.
 Clients purchase service packages to receive professional career support, including resume optimisation, LinkedIn branding, job research, application assistance, interview preparation, and career strategy.
 
 **Target audience:** International students and recent graduates targeting markets such as Australia, Canada, the United Kingdom, the United States, and other eligible countries.

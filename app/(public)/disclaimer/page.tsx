@@ -5,7 +5,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Disclaimer",
   description:
-    "Important disclaimers about A Cube Tech Solutions career consulting services and limitations.",
+    "Important disclaimers about Acubix Technologies career consulting services and limitations.",
   robots: { index: false, follow: false },
 };
 
@@ -14,7 +14,7 @@ const POINTS = [
     id: "no-employment",
     heading: "No Employment Guarantee",
     content:
-      "A Cube Tech Solutions does not guarantee that use of our services will result in employment. We provide professional career support services — the decision to hire rests entirely with the employer. Employment outcomes depend on market conditions, employer requirements, your eligibility, and many factors outside our control.",
+      "Acubix Technologies does not guarantee that use of our services will result in employment. We provide professional career support services — the decision to hire rests entirely with the employer. Employment outcomes depend on market conditions, employer requirements, your eligibility, and many factors outside our control.",
   },
   {
     id: "no-interview",
@@ -26,7 +26,7 @@ const POINTS = [
     id: "no-visa",
     heading: "No Visa Guidance or Guarantee",
     content:
-      "A Cube Tech Solutions is not a registered migration agent and does not provide migration, visa, or immigration advice. We do not assess your visa eligibility, advise on visa conditions, or guarantee any visa outcome. If you require immigration advice, you must consult a registered migration agent or immigration lawyer in your jurisdiction.",
+      "Acubix Technologies is not a registered migration agent and does not provide migration, visa, or immigration advice. We do not assess your visa eligibility, advise on visa conditions, or guarantee any visa outcome. If you require immigration advice, you must consult a registered migration agent or immigration lawyer in your jurisdiction.",
   },
   {
     id: "employer-decisions",
@@ -38,7 +38,7 @@ const POINTS = [
     id: "not-recruitment-agency",
     heading: "We Are Not a Recruitment Agency",
     content:
-      "A Cube Tech Solutions is a career consulting service, not a recruitment or staffing agency in the legal or regulatory sense. We do not place candidates with employers for a placement fee paid by the employer. We are paid by clients for professional services. The regulatory definition of a recruitment agency may vary by jurisdiction — this distinction will be reviewed by legal counsel for each target market before commercial activation.",
+      "Acubix Technologies is a career consulting service, not a recruitment or staffing agency in the legal or regulatory sense. We do not place candidates with employers for a placement fee paid by the employer. We are paid by clients for professional services. The regulatory definition of a recruitment agency may vary by jurisdiction — this distinction will be reviewed by legal counsel for each target market before commercial activation.",
   },
   {
     id: "general-information",
@@ -103,7 +103,7 @@ export default function DisclaimerPage() {
         <div className="container-site">
           <div className="max-w-3xl mx-auto">
             <p className="text-white font-black text-lg leading-snug">
-              A Cube Tech Solutions does not guarantee employment, interviews, visa outcomes, or any
+              Acubix Technologies does not guarantee employment, interviews, visa outcomes, or any
               specific career result. We provide professional consulting services — not guaranteed outcomes.
             </p>
           </div>

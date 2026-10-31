@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "A Cube Tech Solutions",
+    name: "Acubix Technologies",
     short_name: "A Cube Tech",
     description:
       "Career support for international graduates — resume optimisation, LinkedIn branding, job applications, and interview preparation.",

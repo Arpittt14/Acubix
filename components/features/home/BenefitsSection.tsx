@@ -1,3 +1,4 @@
+
 import { LinkButton } from "@/components/ui/Button";
 import {
   Eye,
@@ -51,7 +52,7 @@ export default function BenefitsSection() {
   return (
     <section
       id="benefits"
-      className="section-padding bg-[#f4f3ef] border-b-2 border-[#0a0a0a]"
+      className="section-padding bg-[#F5F0E8] border-b-2 border-[#171717]"
       aria-labelledby="benefits-heading"
     >
       <div className="container-site">
@@ -59,14 +60,14 @@ export default function BenefitsSection() {
           {/* Left: heading */}
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-0.5 bg-[#0066ff]" aria-hidden="true" />
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#0066ff]">
+              <div className="w-8 h-0.5 bg-[#D71920]" aria-hidden="true" />
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#D71920]">
                 Why Choose Us
               </span>
             </div>
             <h2
               id="benefits-heading"
-              className="text-[clamp(2rem,5vw,3rem)] font-black leading-[1.1] tracking-tight text-[#0a0a0a] mb-6"
+              className="text-[clamp(2rem,5vw,3rem)] font-black leading-[1.1] tracking-tight text-[#171717] mb-6"
             >
               You Stay
               <br />
@@ -74,7 +75,7 @@ export default function BenefitsSection() {
               <br />
               In Control.
             </h2>
-            <p className="text-[#2a2a2a] text-base leading-relaxed mb-8">
+            <p className="text-[#171717] text-base leading-relaxed mb-8">
               We believe clients should understand and approve every step of
               their job search. Our platform and process are designed to keep
               you involved — not just updated.
@@ -85,22 +86,22 @@ export default function BenefitsSection() {
           </div>
 
           {/* Right: benefits grid */}
-          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-px bg-[#0a0a0a] border-2 border-[#0a0a0a]">
+          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-px bg-[#171717] border-2 border-[#171717]">
             {BENEFITS.map(({ icon: Icon, title, description }) => (
               <div
                 key={title}
-                className="bg-[#f4f3ef] hover:bg-white transition-colors duration-200 p-6 group"
+                className="bg-[#F5F0E8] hover:bg-white transition-colors duration-200 p-6 group"
               >
-                <div className="w-9 h-9 border-2 border-[#0a0a0a] flex items-center justify-center bg-white group-hover:bg-[#0066ff] group-hover:border-[#0066ff] transition-colors duration-200 mb-4">
+                <div className="w-9 h-9 border-2 border-[#171717] flex items-center justify-center bg-white group-hover:bg-[#D71920] group-hover:border-[#D71920] transition-colors duration-200 mb-4">
                   <Icon
                     size={16}
-                    className="text-[#0a0a0a] group-hover:text-white transition-colors duration-200"
+                    className="text-[#171717] group-hover:text-[#F5F0E8] transition-colors duration-200"
                   />
                 </div>
-                <h3 className="text-sm font-bold text-[#0a0a0a] mb-1.5">
+                <h3 className="text-sm font-bold text-[#171717] mb-1.5">
                   {title}
                 </h3>
-                <p className="text-xs text-[#6b6b6b] leading-relaxed">
+                <p className="text-xs text-[#6B665E] leading-relaxed">
                   {description}
                 </p>
               </div>

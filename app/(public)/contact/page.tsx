@@ -5,11 +5,11 @@ import ContactForm from "@/components/features/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with A Cube Tech Solutions. We'd love to hear from you and answer any questions about our career support services for international graduates.",
+    "Get in touch with Acubix Technologies. We'd love to hear from you and answer any questions about our career support services for international graduates.",
   openGraph: {
-    title: "Contact Us | A Cube Tech Solutions",
+    title: "Contact Us | Acubix Technologies",
     description:
-      "Reach out to A Cube Tech Solutions for career support, partnership enquiries, or general questions.",
+      "Reach out to Acubix Technologies for career support, partnership enquiries, or general questions.",
     url: "/contact",
   },
 };

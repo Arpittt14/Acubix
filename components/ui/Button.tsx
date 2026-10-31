@@ -1,3 +1,4 @@
+
 import { type ButtonHTMLAttributes, forwardRef } from "react";
 import Link from "next/link";
 
@@ -29,15 +30,19 @@ type Props = ButtonProps | LinkButtonProps;
 
 const VARIANT_CLASSES: Record<Variant, string> = {
   primary:
-    "bg-[#0066ff] text-white border-[#0a0a0a] shadow-[3px_3px_0_#0a0a0a] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] focus-visible:ring-[#0a0a0a]",
+    "bg-[#D71920] text-[#F5F0E8] border-[#171717] shadow-[3px_3px_0_#171717] hover:bg-[#B9151B] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] focus-visible:ring-[#D71920]",
+
   secondary:
-    "bg-[#0a0a0a] text-white border-[#0a0a0a] shadow-[3px_3px_0_#0066ff] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] focus-visible:ring-[#0066ff]",
+    "bg-[#171717] text-[#F5F0E8] border-[#171717] shadow-[3px_3px_0_#D71920] hover:bg-[#333333] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] focus-visible:ring-[#D71920]",
+
   ghost:
-    "bg-transparent text-[#0a0a0a] border-transparent hover:border-[#0a0a0a] hover:bg-white focus-visible:ring-[#0066ff]",
+    "bg-transparent text-[#171717] border-transparent hover:border-[#171717] hover:bg-[#C7C2B8]/30 focus-visible:ring-[#D71920]",
+
   destructive:
-    "bg-red-600 text-white border-[#0a0a0a] shadow-[3px_3px_0_#0a0a0a] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] focus-visible:ring-red-600",
+    "bg-[#B9151B] text-[#F5F0E8] border-[#171717] shadow-[3px_3px_0_#171717] hover:bg-[#971117] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] focus-visible:ring-[#D71920]",
+
   outline:
-    "bg-transparent text-[#0a0a0a] border-[#0a0a0a] hover:bg-[#0a0a0a] hover:text-white focus-visible:ring-[#0066ff]",
+    "bg-transparent text-[#171717] border-[#171717] hover:bg-[#171717] hover:text-[#F5F0E8] focus-visible:ring-[#D71920]",
 };
 
 const SIZE_CLASSES: Record<Size, string> = {
@@ -58,7 +63,7 @@ function getClasses(
 }
 
 /**
- * Brutalist-styled Button / Link button component.
+ * Acubix-styled Button / Link button component.
  * Pass `href` to render as a Next.js <Link>, otherwise renders as <button>.
  */
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button(
@@ -112,6 +117,7 @@ export function LinkButton({
   rel,
 }: LinkButtonProps) {
   const classes = getClasses(variant, size, className);
+
   if (target === "_blank") {
     return (
       <a
@@ -124,6 +130,7 @@ export function LinkButton({
       </a>
     );
   }
+
   return (
     <Link href={href} className={classes}>
       {children}

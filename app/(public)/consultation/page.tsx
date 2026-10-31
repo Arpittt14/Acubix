@@ -5,9 +5,9 @@ import ConsultationForm from "@/components/features/consultation/ConsultationFor
 export const metadata: Metadata = {
   title: "Request a Consultation",
   description:
-    "Request a personalised career consultation with A Cube Tech Solutions. Tell us your goals and we'll contact you to discuss how we can support your job search.",
+    "Request a personalised career consultation with Acubix Technologies. Tell us your goals and we'll contact you to discuss how we can support your job search.",
   openGraph: {
-    title: "Request a Consultation | A Cube Tech Solutions",
+    title: "Request a Consultation | Acubix Technologies",
     description:
       "Tell us your goals and we'll get in touch to arrange a personalised career consultation.",
     url: "/consultation",
