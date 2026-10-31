@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36" fill="none">
+  <!-- Bottom-left face (dark) -->
+  <polygon points="1,13 18,22 18,35 1,26" fill="#0a0a0a"/>
+  <!-- Bottom-right face (blue) -->
+  <polygon points="35,13 18,22 18,35 35,26" fill="#0066ff"/>
+  <!-- Top face (off-white) -->
+  <polygon points="18,1 1,10 18,19 35,10" fill="#f4f3ef" stroke="#0a0a0a" stroke-width="1.5"/>
+</svg>
+
